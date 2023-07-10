@@ -1,0 +1,27 @@
+body {
+  font-size: 16px;
+  max-width: 960px;
+  margin: auto;
+}
+
+.titulo {
+  width: 100%;
+  font-size: 1.2rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: #A9A9A9;
+}
+.isso{
+  text-align: center;
+  align-items: center;
+}
+
+.home-link {
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+  padding: 2px;
+}

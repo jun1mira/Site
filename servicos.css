@@ -1,0 +1,76 @@
+body {
+   font-size: 16px;
+   max-width: 960px;
+   margin: 0% auto;
+}
+
+.titulo {
+    width: 100%;
+    font-size: 1.2rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: #A9A9A9;
+    padding: 2px;
+    margin-top: 10px;
+}
+
+.introducao {
+    padding: 20px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 918px;
+    height: 200px;
+    border-radius: 20%;
+    background-color: #18191c;
+    color: white;
+    font-size: x-large;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    grid-template:
+      'item1 item2'
+      'item3 item4'
+      'item5 item5';
+} 
+
+.item1, .item2, .item3, .item4, .item5 {
+    padding: 10px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    width: 454px;
+    height: 170px;
+}
+
+.home-link {
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    padding: 2px;
+}
+
+.todosindex {
+    align-items: center;
+    display: grid;
+    grid-gap: 10px;
+    grid-template:
+      'b1 b2'
+      'b3 b4'
+      'b5 b6';
+} 
+.detalhes{
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    padding: 2px;
+ }
